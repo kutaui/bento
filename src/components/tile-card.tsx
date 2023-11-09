@@ -16,7 +16,7 @@ type TileCardProps = {
     background?: string;
 };
 
-export const TileCard = ({ title = "more soon", description = "", href = "/" , image= "/loading.png", background= ""}: TileCardProps) => {
+export const TileCard = ({ title = "more", description = "soon", href = "/" , image= "/loading.png", background= ""}: TileCardProps) => {
     return <a href={href} target="_blank" className="group">
         <Card className={cn("w-64 bg-zinc-900 transition rounded-3xl h-36 overflow-hidden hover:scale-[1.02] hover:border-[3px] hover:cursor-pointer bg-cover",background)} >
             <CardHeader className="relative pt-10">
