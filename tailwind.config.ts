@@ -8,7 +8,9 @@ module.exports = {
         './src/**/*.{ts,tsx}'
     ],
     theme: {
+        safelist: ['animate-[fade-in-right]', 'animate-[fade-in-down_1s_ease-in-out]']
+
 
     },
-    plugins: [require('tailwindcss-animate')]
+    plugins: [require('tailwindcss-animated'),require('tailwindcss-animate')]
 };
