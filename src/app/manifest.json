@@ -1,0 +1,12 @@
+{
+	"name": "Kutay's bento, links for his socials and projects.",
+	"short_name": "kutay's bento",
+	"description": "Kutay's bento, links for his socials and projects.",
+	"start_url": "/",
+	"related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://kutaybekleric.com"
+        }
+    ]
+}
