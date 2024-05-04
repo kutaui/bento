@@ -59,6 +59,7 @@ export default function RootLayout({
 				<Analytics />
 			</body>
 			<Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
+			<Script src="https://www.googletagmanager.com/gtag/js?id=G-9SWB5V36QB" />
 		</html>
 	)
 }
